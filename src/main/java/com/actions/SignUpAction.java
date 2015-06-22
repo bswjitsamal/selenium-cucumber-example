@@ -18,18 +18,14 @@ public class SignUpAction {
 	 */
 	public static String emailTest=null;
 	
-	public static void execute(String email, String firstName, String lastName,
-			String password, String myfirstname, String mylastname,
-			String mycompany, String myAddressField1, String myAddressField2,
-			String myCity, String myPostCode, String myPhone,
-			String myAliasAddress) {
+	public static void execute() {
 
-		emailTest=email;
+			
 		HomePage.sign_in.click();
 		
 		Log.info("Clicking on SignIn link");
 
-		LoginPage.emailCreate.sendKeys(email);
+		LoginPage.emailCreate.sendKeys("xyz@t.com");
 	
 		Log.info("Entering an email to register");
 
@@ -41,15 +37,15 @@ public class SignUpAction {
 	
 		Log.info("Clicked on Title radio button");
 
-		SignUpPage.firstName.sendKeys(firstName);
+		SignUpPage.firstName.sendKeys("ABC");
 	
 		Log.info("Enterd first name in the text field");
 
-		SignUpPage.lastName.sendKeys(lastName);
+		SignUpPage.lastName.sendKeys("DEF");
 	
 		Log.info("Enterd last name in the text field");
 
-		SignUpPage.password.sendKeys(password);
+		SignUpPage.password.sendKeys("password");
 	
 		Log.info("Enterd password in the text field");
 
@@ -68,27 +64,27 @@ public class SignUpAction {
 	
 		Log.info("Selecting Years for Date of birth form the Dropdown");
 
-		SignUpPage.myfirstname.sendKeys(myfirstname);
+		SignUpPage.myfirstname.sendKeys("Raju");
 	
 		Log.info("Entering first name for shipping details");
 
-		SignUpPage.mylastname.sendKeys(mylastname);
+		SignUpPage.mylastname.sendKeys("Singh");
 		
 		Log.info("Entering last name for shipping details");
 
-		SignUpPage.mycompany.sendKeys(mycompany);
+		SignUpPage.mycompany.sendKeys("Ubique");
 	
 		Log.info("Entering company name for shipping details");
 
-		SignUpPage.myAddressField1.sendKeys(myAddressField1);
+		SignUpPage.myAddressField1.sendKeys("Kolkata");
 		
 		Log.info("Entering address1 for shipping details");
 
-		SignUpPage.myAddressField2.sendKeys(myAddressField2);
+		SignUpPage.myAddressField2.sendKeys("Kolkata");
 		
 		Log.info("Entering address2 for shipping details");
 
-		SignUpPage.myCity.sendKeys(myCity);
+		SignUpPage.myCity.sendKeys("Kolkata");
 		
 		Log.info("Entering city for shipping details");
 
@@ -97,7 +93,7 @@ public class SignUpAction {
 		
 		Log.info("Entering state for shipping details");
 
-		SignUpPage.myPostCode.sendKeys(myPostCode);
+		SignUpPage.myPostCode.sendKeys("700102");
 		
 		Log.info("Entering zip code for shipping details");
 
@@ -106,11 +102,11 @@ public class SignUpAction {
 	
 		Log.info("Entering country for shipping details");
 
-		SignUpPage.myPhone.sendKeys(myPhone);
+		SignUpPage.myPhone.sendKeys("1234567890");
 		
 		Log.info("Entering Mobile Number for shipping details");
 
-		SignUpPage.myAliasAddress.sendKeys(myAliasAddress);
+		SignUpPage.myAliasAddress.sendKeys("Kolkata, kestapur");
 		
 		Log.info("Entering alias address for shipping details");
 

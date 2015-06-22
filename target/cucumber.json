@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Check successfull signup",
+        "description": "",
+        "id": "as-a-user-i-want-to-testing-signup-page;check-successfull-signup",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13077848992,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in the automationpractice web page",
+            "match": {
+              "location": "SignUpStepDef.i_am_in_the_automationpractice_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19336409525,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I move to register page",
+            "match": {
+              "location": "SignUpStepDef.i_move_to_register_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30447,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter valid credentials then hit submit",
+            "match": {
+              "location": "SignUpStepDef.enter_valid_credentials_then_hit_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27026,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should register successfully",
+            "match": {
+              "location": "SignUpStepDef.user_should_register_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@signup"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to Testing SignUp page",
+    "description": "",
+    "id": "as-a-user-i-want-to-testing-signup-page",
+    "keyword": "Feature",
+    "uri": "signup.feature"
+  }
+]
