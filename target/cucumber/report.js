@@ -44,28 +44,28 @@ formatter.match({
   "location": "SignUpStepDef.i_am_in_the_automationpractice_web_page()"
 });
 formatter.result({
-  "duration": 13077848992,
+  "duration": 12477838729,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpStepDef.i_move_to_register_page()"
 });
 formatter.result({
-  "duration": 19336409525,
+  "duration": 19867300242,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpStepDef.enter_valid_credentials_then_hit_submit()"
 });
 formatter.result({
-  "duration": 30447,
+  "duration": 47552,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpStepDef.user_should_register_successfully()"
 });
 formatter.result({
-  "duration": 27026,
+  "duration": 32842,
   "status": "passed"
 });
 });
