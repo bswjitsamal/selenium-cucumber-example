@@ -10,13 +10,7 @@ import com.utils.Log;
 
 public class SignUpAction {
 	
-
-
-	 /*
-	 * static Random rand = new Random(); static String email =
-	 * rand.nextInt(999) + "@test.com";
-	 */
-	public static String emailTest=null;
+	public static String emailTest= "abc@t.com";
 	
 	public static void execute() {
 
@@ -25,7 +19,7 @@ public class SignUpAction {
 		
 		Log.info("Clicking on SignIn link");
 
-		LoginPage.emailCreate.sendKeys("xyz@t.com");
+		LoginPage.emailCreate.sendKeys(emailTest);
 	
 		Log.info("Entering an email to register");
 
@@ -93,7 +87,7 @@ public class SignUpAction {
 		
 		Log.info("Entering state for shipping details");
 
-		SignUpPage.myPostCode.sendKeys("700102");
+		SignUpPage.myPostCode.sendKeys("00000");
 		
 		Log.info("Entering zip code for shipping details");
 
