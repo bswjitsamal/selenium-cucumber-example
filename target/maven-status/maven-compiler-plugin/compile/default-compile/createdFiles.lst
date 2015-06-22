@@ -1,0 +1,10 @@
+com\pages\HomePage.class
+com\actions\SignUpAction.class
+com\pages\HomePage$BobyPage.class
+com\actions\SignInAction.class
+com\pages\HomePage$HeaderPage$DressesPage.class
+com\pages\LoginPage.class
+com\pages\LogOutPage.class
+com\pages\HomePage$HeaderPage.class
+com\utils\Log.class
+com\pages\SignUpPage.class
