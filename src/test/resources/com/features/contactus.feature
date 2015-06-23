@@ -1,5 +1,6 @@
 Feature: Testing for contactus page
 
+  @contactus
 Scenario Outline: contactus page
   Given I am in the contactus page
   When I enter "<subjectheading>" form dropdown
