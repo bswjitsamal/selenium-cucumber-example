@@ -7,6 +7,11 @@ import com.pages.LoginPage;
 import com.pages.SignUpPage;
 import com.utils.Log;
 
+/**
+ * 
+ * @author Biswajit
+ *
+ */
 
 public class SignUpAction {
 	
